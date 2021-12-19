@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 3.0.0 (2021-12-19)
+
+
+### Bug Fixes
+
+* **eslint:** downgraded eslint to support cra 4 ([9fe3260](https://github.com/m-nathani/eslint-config-cra/commit/9fe3260078c48257d51590edaa9336f433427436))
+
 ## 2.0.0 (2021-12-19)
 
 
