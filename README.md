@@ -29,3 +29,7 @@ npm i -D eslint-config-cra
 ---
 
 This repository is inspired by [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos).
+
+
+## License
+eslint-config-cra is open source software licensed as MIT.
