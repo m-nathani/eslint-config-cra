@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-cra",
+  "version": "1.0.0",
+  "description": "ESLint config based in recommended best practices in latest cra",
+  "main": "index.js",
+  "keywords": [
+    "cra",
+    "cra5"
+    "eslint",
+    "config",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-nathani/eslint-config-cra.git"
+  },
+  "author": "mudza100@gmail.com",
+  "scripts": {
+    "release": "standard-version --release-as major"
+  },
+  "peerDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+  },
+  "dependencies": {
+    "prettier-config-cra": "^4.0.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
