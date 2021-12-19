@@ -5,7 +5,6 @@
   "main": "index.js",
   "keywords": [
     "cra",
-    "cra5",
     "eslint",
     "config",
     "plugin",
@@ -29,14 +28,14 @@
     "release": "standard-version --release-as major"
   },
   "peerDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-config-react-app": "^7.0.0"
+    "eslint": "^7.30.0",
+    "eslint-config-react-app": "^6.0.0"
   },
   "dependencies": {
     "prettier-config-cra": "^4.0.0",
-    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-react-app": "^7.0.0",
+    "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
   "devDependencies": {
