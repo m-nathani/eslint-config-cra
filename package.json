@@ -5,10 +5,20 @@
   "main": "index.js",
   "keywords": [
     "cra",
-    "cra5"
+    "cra5",
     "eslint",
     "config",
-    "plugin"
+    "plugin",
+    "lint",
+    "airbnb",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "prettier",
+    "react",
+    "jsx"
   ],
   "repository": {
     "type": "git",
@@ -20,7 +30,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.3.0",
-    "eslint-config-react-app": "^7.0.0",
+    "eslint-config-react-app": "^7.0.0"
   },
   "dependencies": {
     "prettier-config-cra": "^4.0.0",
