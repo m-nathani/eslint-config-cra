@@ -8,8 +8,16 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
   ],
   plugins: ['jsx-a11y'],
+  // NOTE: need to disable the babelOptions for "babel-preset-react-app", as it was breaking due to a bug in CRA5
+  // For more info: https://github.com/facebook/create-react-app/issues/12070
+  // Remove the below parserOptions when its fixed
+  parserOptions: {
+    babelOptions: {
+      presets: [['babel-preset-react-app', false], 'babel-preset-react-app/prod'],
+    },
+  },
   rules: {
-    // NOTE: to be same as the "prettier-config-cra" to make sure we follow the prettier rules using eslint
+    // NOTE: to be same as the "@umai/prettier-config" to make sure we follow the prettier rules using eslint
     'prettier/prettier': [
       'error',
       {},
@@ -35,12 +43,10 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/require-default-props': 0,
     'react/self-closing-comp': 0,
-    'jsx-a11y/anchor-is-valid': 0,
+    'class-methods-use-this': 0,
     'react/jsx-one-expression-per-line': 0,
-    'jsx-a11y/label-has-for': 0,
-    'jsx-a11y/click-events-have-key-events': 0,
-    'jsx-a11y/no-static-element-interactions': 0,
-    'react/jsx-props-no-spreading': 'off',
+    'react/function-component-definition': 0,
+    'no-plusplus': 'off',
   },
   settings: {
     'import/core-modules': [
